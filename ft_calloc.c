@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/07 15:38:13 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/11 15:29:33 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:51:05 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@
 *	If there is an error, they return a NULL pointer.
 */
 
-#include <stdlib.h>
+#include "libft.h"
 
 void	*ft_calloc(size_t count, size_t size)
 {

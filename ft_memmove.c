@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/07 13:21:24 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/11 15:17:33 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:52:24 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@
 *	RETURN VALUES
 *	The memmove() function returns the original value of dst.
 */
-#include <stdlib.h>
+#include "libft.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {

@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/06 15:38:35 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/11 15:12:43 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:53:26 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@
 *	the strlcpy() function returns the length of the string it tried to create.
 */
 
-#include <stdlib.h>
+#include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {

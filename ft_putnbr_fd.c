@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/08 14:07:59 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/08 14:22:05 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:52:51 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@
 *	RETURN VALUES
 *	-
 */
+
+#include "libft.h"
 
 void	ft_putnbr_fd(int n, int fd)
 {

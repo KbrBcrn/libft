@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/06 16:10:27 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/11 15:19:20 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:53:19 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@
 *	RETURN VALUES
 *	the strlcat() function returns the length of the string it tried to create.
 */
-#include <stdlib.h>
+#include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {

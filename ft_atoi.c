@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/07 15:23:25 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/11 15:28:57 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:50:41 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@
 *	RETURN VALUES
 *	The atoi() function returns its converted int representation.
 */
+#include "libft.h"
 
 int	ft_atoi(const char *str)
 {

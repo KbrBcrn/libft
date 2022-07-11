@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/06 12:17:00 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/06 15:11:48 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:50:55 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 *	RETURN VALUES
 *	- 
 */
-#include <stdlib.h>
+#include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
 {

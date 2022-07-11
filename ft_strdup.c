@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/08 10:22:24 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/11 15:39:19 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:53:13 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 *	The strdup() function returns thE pointer to the copy of s1.
 */
 
-#include <stdlib.h>
+#include "libft.h"
 
 char	*ft_strdup(const char *s1)
 {

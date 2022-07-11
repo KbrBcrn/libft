@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/06 15:34:33 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/11 15:26:12 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:53:57 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,8 @@
 *	corresponding lower-case letter if there is one; otherwise, the argument 
 *	is returned unchanged.
 */
+
+#include "libft.h"
 
 int	ft_tolower(int c)
 {

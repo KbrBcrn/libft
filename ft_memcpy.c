@@ -6,11 +6,11 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/07 13:02:44 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/11 15:09:56 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:52:18 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {

@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/08 13:54:21 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/08 14:07:21 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:52:44 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 *	RETURN VALUES
 *	-
 */
+#include "libft.h"
 
 void	ft_putendl_fd(char *s, int fd)
 {

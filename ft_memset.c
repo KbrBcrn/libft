@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/06 15:09:31 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/11 15:11:52 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:52:30 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@
 *	The memset() function returns its first argument.  
 */
 
-#include <stdlib.h>
+#include "libft.h"
 
 void	*ft_memset(void *b, int c, size_t len)
 {

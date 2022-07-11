@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/07 14:46:55 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/11 15:11:02 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:52:03 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@
 *	such byte exists within n bytes.
 */
 
-#include <stdlib.h>
+#include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

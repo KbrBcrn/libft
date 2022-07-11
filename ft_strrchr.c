@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/07 11:22:26 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/11 15:14:53 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:53:48 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,8 @@
 *	The function strrchr() returns a pointer to the located 
 *	character, or NULL if the character does not appear in the string.
 */
+
+#include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {

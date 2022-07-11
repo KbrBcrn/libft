@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/08 13:44:31 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/08 14:01:01 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:52:57 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@
 *	RETURN VALUES
 *	-
 */
+
+#include "libft.h"
 
 void	ft_putstr_fd(char *s, int fd)
 {

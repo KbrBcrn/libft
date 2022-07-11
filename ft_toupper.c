@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/06 13:39:30 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/11 15:25:25 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/11 15:54:02 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@
 *	corresponding upper-case letter if there is one; otherwise, the argument is 
 *	returned unchanged.
 */
+#include "libft.h"
 
 int	ft_toupper(int c)
 {

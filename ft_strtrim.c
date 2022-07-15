@@ -6,7 +6,7 @@
 /*   By: kbeceren <kbeceren@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/12 11:31:29 by kbeceren          #+#    #+#             */
-/*   Updated: 2022/07/12 14:02:07 by kbeceren         ###   ########.fr       */
+/*   Updated: 2022/07/14 11:32:23 by kbeceren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@
 
 #include "libft.h"
 
-int	ft_setcheck(char c, char const *set)
+static int	ft_setcheck(char c, char const *set)
 {
 	int	i;
 
